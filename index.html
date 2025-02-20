@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Підключення шрифтів Montserrat, Red Hat Display, Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Red+Hat+Display:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<!-- шапка -->
+<header class="header">
+    <div class="container">
+      <h1 class="logo">My roadmap of QA</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+<body>
+    <div class="container">
+        <!-- Блок з профільним фото та іконками -->
+        <div class="profile-image-container">
+            <div class="icons-container">
+                <a href="https://www.linkedin.com/in/yana-shevchenko-069700234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJrWZjd4gT4OYWpSoQtQCuw%3D%3D" class="icon">
+                    <img src="../png/001-linkedin.png" alt="Іконка 1">
+                </a>
+                <a href="https://example.com" class="icon">
+                    <img src="../png/002-social.png" alt="Іконка 2">
+                </a>
+                <a href="https://example.com" class="icon">
+                    <img src="../png/003-github.png" alt="Іконка 3">
+                </a>
+            </div>
+        </div>
+
+        <!-- Заголовок -->
+        <h1 class="main-title">🚀 QA Roadmap 2025</h1>
+
+        <!-- Основний роадмап -->
+        <div class="roadmap">
+            <div class="step">
+                <h2>🎯 <span class="highlight">Step 1:</span> Foundation of QA</h2>
+                <ul>
+                    <li>📌 <span class="highlight">SDLC Basics</span></li>
+                    <li>📌 Визначення тестування</li>
+                    <li>📌 Основні методології</li>
+                    <li>📌 Види тестування</li>
+                    <li>📌 Тестування АPI</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>🛠 <span class="highlight">Step 2:</span> Testing Types & Tools</h2>
+                <ul>
+                    <li>🔹 Functional</li>
+                    <li>🔹 Regression</li>
+                    <li>🔹 Integration</li>
+                    <li>🔹 Performance</li>
+                    <li>🔹 Security</li>
+                    <li>🔹 JIRA, TestRail</li>
+                    <li>🔹 Postman, Selenium</li>
+                    <li>🔹 Git, CI/CD</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>📑 <span class="highlight">Step 3:</span> Test Case Design</h2>
+                <ul>
+                    <li>📝 Boundary Value</li>
+                    <li>📝 Equivalence Partitioning</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>🐞 <span class="highlight">Step 4:</span> Bug Reporting & Tools</h2>
+                <ul>
+                    <li>📌 Jira</li>
+                    <li>📌 Trello</li>
+                    <li>📌 Bugzilla</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>📖 <span class="highlight">Step 5:</span> Continuous Learning</h2>
+                <ul>
+                    <li>🎓 Udemy</li>
+                    <li>🎓 Coursera</li>
+                    <li>🎓 Pluralsight</li>
+                    <li>🎓 LinkedIn Learning</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>✅ <span class="highlight">Step 6:</span> Certifications</h2>
+                <ul>
+                    <li>🏅 ISTQB</li>
+                    <li>🏅 Selenium Pro</li>
+                    <li>🏅 AWS DevOps</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Блок нотатки -->
+        <div class="notes-block">
+            <h2>📝 Ваші нотатки</h2>
+            <textarea id="noteInput" placeholder="Напишіть свої нотатки тут..."></textarea>
+            <button id="saveNote">Зберегти нотатку</button>
+        </div>
+
+        <!-- Збережені нотатки -->
+        <div class="saved-notes">
+            <h2>Ваші нотатки</h2>
+            <div id="notesContainer"></div>
+        </div>
+    </div>
+
+    <!-- Підключення зовнішнього JavaScript-файлу -->
+    <script src="script.js"></script>
+</body>
+</html>
+
